@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#ff0000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:30px;
+}
+
+.container{
+    width:900px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:30px;
+    color:#000;
+}
+
+form{
+    width:100%;
+}
+
+label{
+    display:block;
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:8px;
+    color:#333;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    margin-bottom:10px;
+}
+
+.box{
+    width:48%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:2px solid #999;
+    border-radius:5px;
+    font-size:16px;
+}
+
+textarea{
+    height:140px;
+    resize:none;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width:auto;
+    margin-right:6px;
+    margin-top:10px;
+}
+
+input[type="file"]{
+    width:100%;
+    padding:8px;
+    border:2px solid #999;
+    border-radius:5px;
+    background:#fff;
+}
+
+button{
+    width:100%;
+    margin-top:30px;
+    padding:15px;
+    background:#ff0000;
+    color:white;
+    font-size:20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#cc0000;
+}
